@@ -1,0 +1,164 @@
+:root {
+  background-color: rgb(255, 255, 255);
+}
+
+* {
+  margin: 0;
+  font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 0;
+  text-decoration: none;
+  color: #666666;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+#regioes #btn-regiao-1, #regioes #btn-regiao-2, #regioes #btn-regiao-3, #regioes #btn-regiao-4, #regioes #btn-regiao-5, #regioes #btn-regiao-6, #regioes #btn-regiao-7, #regioes #btn-regiao-8 {
+  margin: 5px;
+  padding: 10px;
+  background-image: url("../assets/images/background3.jpg");
+  border-radius: 15px;
+}
+#regioes #btn-regiao-1 .starter-div, #regioes #btn-regiao-2 .starter-div, #regioes #btn-regiao-3 .starter-div, #regioes #btn-regiao-4 .starter-div, #regioes #btn-regiao-5 .starter-div, #regioes #btn-regiao-6 .starter-div, #regioes #btn-regiao-7 .starter-div, #regioes #btn-regiao-8 .starter-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#regioes #btn-regiao-1 .starter-div .starter-icon1, #regioes #btn-regiao-1 .starter-div .starter-icon2, #regioes #btn-regiao-1 .starter-div .starter-icon3, #regioes #btn-regiao-2 .starter-div .starter-icon1, #regioes #btn-regiao-2 .starter-div .starter-icon2, #regioes #btn-regiao-2 .starter-div .starter-icon3, #regioes #btn-regiao-3 .starter-div .starter-icon1, #regioes #btn-regiao-3 .starter-div .starter-icon2, #regioes #btn-regiao-3 .starter-div .starter-icon3, #regioes #btn-regiao-4 .starter-div .starter-icon1, #regioes #btn-regiao-4 .starter-div .starter-icon2, #regioes #btn-regiao-4 .starter-div .starter-icon3, #regioes #btn-regiao-5 .starter-div .starter-icon1, #regioes #btn-regiao-5 .starter-div .starter-icon2, #regioes #btn-regiao-5 .starter-div .starter-icon3, #regioes #btn-regiao-6 .starter-div .starter-icon1, #regioes #btn-regiao-6 .starter-div .starter-icon2, #regioes #btn-regiao-6 .starter-div .starter-icon3, #regioes #btn-regiao-7 .starter-div .starter-icon1, #regioes #btn-regiao-7 .starter-div .starter-icon2, #regioes #btn-regiao-7 .starter-div .starter-icon3, #regioes #btn-regiao-8 .starter-div .starter-icon1, #regioes #btn-regiao-8 .starter-div .starter-icon2, #regioes #btn-regiao-8 .starter-div .starter-icon3 {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+#regioes #btn-regiao-1 a, #regioes #btn-regiao-2 a, #regioes #btn-regiao-3 a, #regioes #btn-regiao-4 a, #regioes #btn-regiao-5 a, #regioes #btn-regiao-6 a, #regioes #btn-regiao-7 a, #regioes #btn-regiao-8 a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#regioes #btn-regiao-1 section, #regioes #btn-regiao-2 section, #regioes #btn-regiao-3 section, #regioes #btn-regiao-4 section, #regioes #btn-regiao-5 section, #regioes #btn-regiao-6 section, #regioes #btn-regiao-7 section, #regioes #btn-regiao-8 section {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#regioes #btn-regiao-1 section h6, #regioes #btn-regiao-1 section p, #regioes #btn-regiao-2 section h6, #regioes #btn-regiao-2 section p, #regioes #btn-regiao-3 section h6, #regioes #btn-regiao-3 section p, #regioes #btn-regiao-4 section h6, #regioes #btn-regiao-4 section p, #regioes #btn-regiao-5 section h6, #regioes #btn-regiao-5 section p, #regioes #btn-regiao-6 section h6, #regioes #btn-regiao-6 section p, #regioes #btn-regiao-7 section h6, #regioes #btn-regiao-7 section p, #regioes #btn-regiao-8 section h6, #regioes #btn-regiao-8 section p {
+  margin: 8px;
+  color: white;
+}
+#regioes #btn-regiao-1 section p, #regioes #btn-regiao-2 section p, #regioes #btn-regiao-3 section p, #regioes #btn-regiao-4 section p, #regioes #btn-regiao-5 section p, #regioes #btn-regiao-6 section p, #regioes #btn-regiao-7 section p, #regioes #btn-regiao-8 section p {
+  margin-top: 1px;
+}
+#regioes #btn-regiao-1 section h6, #regioes #btn-regiao-2 section h6, #regioes #btn-regiao-3 section h6, #regioes #btn-regiao-4 section h6, #regioes #btn-regiao-5 section h6, #regioes #btn-regiao-6 section h6, #regioes #btn-regiao-7 section h6, #regioes #btn-regiao-8 section h6 {
+  margin-bottom: 1px;
+}
+#regioes #btn-regiao-1 {
+  background-image: url("../assets/regioes/kanto.png");
+  box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+}
+#regioes #btn-regiao-1 .starter-icon1 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/bulbasaur.png");
+}
+#regioes #btn-regiao-1 .starter-icon2 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/charmander.png");
+}
+#regioes #btn-regiao-1 .starter-icon3 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/squirtle.png");
+}
+#regioes #btn-regiao-2 {
+  background-image: url("../assets/regioes/Johto.png");
+  box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+}
+#regioes #btn-regiao-2 .starter-icon1 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/chikorita.png");
+}
+#regioes #btn-regiao-2 .starter-icon2 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/cyndaquil.png");
+}
+#regioes #btn-regiao-2 .starter-icon3 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/totodile.png");
+}
+#regioes #btn-regiao-3 {
+  background-image: url("../assets/regioes/hoenn.png");
+  box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+}
+#regioes #btn-regiao-3 .starter-icon1 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/treecko.png");
+}
+#regioes #btn-regiao-3 .starter-icon2 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/torchic.png");
+}
+#regioes #btn-regiao-3 .starter-icon3 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/mudkip.png");
+}
+#regioes #btn-regiao-4 {
+  background-image: url("../assets/regioes/sinnoh.png");
+  box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+}
+#regioes #btn-regiao-4 .starter-icon1 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/turtwig.png");
+}
+#regioes #btn-regiao-4 .starter-icon2 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/chimchar.png");
+}
+#regioes #btn-regiao-4 .starter-icon3 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/piplup.png");
+}
+#regioes #btn-regiao-5 {
+  background-image: url("../assets/regioes/unova.png");
+  box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+}
+#regioes #btn-regiao-5 .starter-icon1 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/snivy.png");
+}
+#regioes #btn-regiao-5 .starter-icon2 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/tepig.png");
+}
+#regioes #btn-regiao-5 .starter-icon3 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/oshawott.png");
+}
+#regioes #btn-regiao-6 {
+  background-image: url("../assets/regioes/kalos.png");
+  box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+}
+#regioes #btn-regiao-6 .starter-icon1 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/chespin.png");
+}
+#regioes #btn-regiao-6 .starter-icon2 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/fennekin.png");
+}
+#regioes #btn-regiao-6 .starter-icon3 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/froakie.png");
+}
+#regioes #btn-regiao-7 {
+  background-image: url("../assets/regioes/alola.png");
+  box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+}
+#regioes #btn-regiao-7 .starter-icon1 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/rowlet.png");
+}
+#regioes #btn-regiao-7 .starter-icon2 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/litten.png");
+}
+#regioes #btn-regiao-7 .starter-icon3 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/popplio.png");
+}
+#regioes #btn-regiao-8 {
+  background-image: url("../assets/regioes/galar.png");
+  box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+}
+#regioes #btn-regiao-8 .starter-icon1 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/pokemon-gen8/regular/grookey.png");
+}
+#regioes #btn-regiao-8 .starter-icon2 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/pokemon-gen8/regular/scorbunny.png");
+}
+#regioes #btn-regiao-8 .starter-icon3 {
+  background-image: url("../assets/pokesprite-master/pokesprite-master/pokemon-gen8/regular/sobble.png");
+}
+
+/*# sourceMappingURL=Regioes.css.map */

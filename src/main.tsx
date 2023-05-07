@@ -2,9 +2,37 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
+
+import Error from './routes/Error.tsx'
+import Comeco from './routes/Comeco.tsx'
+import Regioes from './routes/Regioes.tsx'
+
+
+const route = createBrowserRouter([
+  {
+    path:'/',
+    element: <App />,
+    errorElement: <Error />,
+    children: [
+      {
+        path: '/',
+        element: <Comeco />
+      },
+      {
+        path: 'regioes',
+        element: <Regioes />
+      }
+    ],
+  }
+])
+
+
+
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={route} />
   </React.StrictMode>,
 )

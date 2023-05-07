@@ -1,0 +1,196 @@
+@use '../index.scss' as *;
+
+
+#regioes {
+
+    #btn-regiao-1,#btn-regiao-2,#btn-regiao-3,#btn-regiao-4,#btn-regiao-5,#btn-regiao-6,#btn-regiao-7,#btn-regiao-8 {
+        margin: 5px;
+        padding: 10px;
+        background-image: url("../assets/images/background3.jpg");
+        border-radius: 15px;
+
+
+
+        .starter-div {
+
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .starter-icon1, .starter-icon2, .starter-icon3 {
+                width: 50px;
+                height: 50px;
+                background-size: cover;
+            }
+        }
+
+        a {
+            text-decoration: none ;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+
+
+        section {
+            text-align: start;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h6, p {
+                margin: 8px;
+                color: white;
+            }
+
+            p {
+                margin-top: 1px;
+            }
+
+            h6 {
+                margin-bottom: 1px;
+            }
+        }
+    }    
+
+    #btn-regiao-1 {
+        background-image: url("../assets/regioes/kanto.png");
+        box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+
+        .starter-icon1 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/bulbasaur.png");
+        }
+
+        .starter-icon2 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/charmander.png");
+        }
+
+        .starter-icon3 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/squirtle.png");
+        }
+    }
+
+    #btn-regiao-2 {
+        background-image: url("../assets/regioes/Johto.png");
+        box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+
+        .starter-icon1 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/chikorita.png");
+        }
+
+        .starter-icon2 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/cyndaquil.png");
+        }
+
+        .starter-icon3 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/totodile.png");
+        }
+    }
+
+    #btn-regiao-3 {
+        background-image: url("../assets/regioes/hoenn.png");
+        box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+
+        .starter-icon1 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/treecko.png");
+        }
+
+        .starter-icon2 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/torchic.png");
+        }
+
+        .starter-icon3 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/mudkip.png");
+        }
+    }
+
+    #btn-regiao-4 {
+        background-image: url("../assets/regioes/sinnoh.png");
+        box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+
+        .starter-icon1 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/turtwig.png");
+        }
+
+        .starter-icon2 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/chimchar.png");
+        }
+
+        .starter-icon3 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/piplup.png");
+        }
+    }
+
+    #btn-regiao-5 {
+        background-image: url("../assets/regioes/unova.png");
+        box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+
+        .starter-icon1 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/snivy.png");
+        }
+
+        .starter-icon2 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/tepig.png");
+        }
+
+        .starter-icon3 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/oshawott.png");
+        }
+    }
+
+    #btn-regiao-6 {
+        background-image: url("../assets/regioes/kalos.png");
+        box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+
+        .starter-icon1 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/chespin.png");
+        }
+
+        .starter-icon2 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/fennekin.png");
+        }
+
+        .starter-icon3 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/froakie.png");
+        }
+    }
+
+    #btn-regiao-7 {
+        background-image: url("../assets/regioes/alola.png");
+        box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+
+        .starter-icon1 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/rowlet.png");
+        }
+
+        .starter-icon2 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/litten.png");
+        }
+
+        .starter-icon3 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/icons/pokemon/regular/popplio.png");
+        }
+    }
+
+    #btn-regiao-8 {
+        background-image: url("../assets/regioes/galar.png");
+        box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.363);
+
+        .starter-icon1 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/pokemon-gen8/regular/grookey.png");
+        }
+
+        .starter-icon2 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/pokemon-gen8/regular/scorbunny.png");
+        }
+
+        .starter-icon3 {
+            background-image: url("../assets/pokesprite-master/pokesprite-master/pokemon-gen8/regular/sobble.png");
+        }
+    }
+    
+    
+
+}

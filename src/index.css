@@ -1,19 +1,26 @@
 :root {
-  font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #666666;
   background-color: rgb(255, 255, 255);
 }
 
 * {
   margin: 0;
+  font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 0;
+  text-decoration: none;
+  color: #666666;
 }
 
 html, body {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+
 }
 
 /*# sourceMappingURL=index.css.map */
