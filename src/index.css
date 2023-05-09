@@ -18,9 +18,9 @@ html, body {
   overflow-x: hidden;
 }
 
-#root {
-  width: 100%;
-
+body {
+  background-image: url("/src/assets/images/background3.jpg");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=index.css.map */

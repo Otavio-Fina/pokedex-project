@@ -1,0 +1,104 @@
+@use '../index.scss' as *;
+
+#root {
+    height: 100%;
+}
+
+main{
+
+
+    #div-voltar {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        align-items: center;
+        margin-bottom: 10px;
+
+        p {
+            margin: 0;
+            margin-left: 15px;
+            font-weight: 500;
+        }
+    }
+
+
+
+
+    #seta-voltar  {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        background-image: url("../assets/images/seta-esquerda.png");
+        background-size: cover;
+
+    }
+
+
+
+
+
+
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 0;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(231, 231, 231);
+
+
+        .container-fluid {
+            padding: 0;
+
+            input {
+                border-radius: 20px;
+                padding-left: 30px;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #base-filtro {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 30px;
+
+        .filtro {
+
+            color: white;
+            padding: 8px 16px;
+            background: #333333;
+            border-radius: 49px;
+            width: 45%;
+            margin: 15px 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 12px;
+
+        }
+    }
+
+
+
+
+    
+
+
+}

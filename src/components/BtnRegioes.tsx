@@ -12,7 +12,7 @@ export default function BtnRegioes(props: any) {
                 id={`btn-regiao-${props.gen}`}
                 >
                 {/*@ts-ignore*/}
-                <Link className='link-regiao' to={'regioes'}>{props.children}</Link>
+                <Link className='link-regiao' to={'pokedex'}>{props.children}</Link>
             </motion.div>   
     )
 }

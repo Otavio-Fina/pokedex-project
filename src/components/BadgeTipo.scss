@@ -1,0 +1,37 @@
+.badge-tipo0,.badge-tipo1,.badge-tipo2,.badge-tipo3,.badge-tipo4,.badge-tipo5,.badge-tipo6,.badge-tipo7,.badge-tipo8,.badge-tipo9,.badge-tipo10,.badge-tipo11,.badge-tipo12,.badge-tipo13,.badge-tipo14,.badge-tipo15,.badge-tipo16,.badge-tipo17 {
+ width: 90px;
+ height: 30px;
+ background-color: blue;
+ border-radius: 25px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+    .fundo-branco-badge {
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+
+        .tipo0,.tipo1, .tipo2,.tipo3,.tipo4,.tipo5,.tipo6,.tipo7,.tipo8,.tipo9,.tipo10,.tipo11,.tipo12,.tipo13,.tipo14,.tipo15,.tipo16,.tipo17 {
+            width: 12px;
+            height: 14px;
+            background-image: url("../assets/tipos/Vector-1.png");
+            background-size: cover;
+
+            border-radius: 50%;
+        }
+    }
+
+
+    span{
+        font-size: 10px;
+        margin: 0;
+        color: white;
+        padding-right: 10px;
+    }
+}

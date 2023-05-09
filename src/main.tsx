@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Error from './routes/Error.tsx'
 import Comeco from './routes/Comeco.tsx'
 import Regioes from './routes/Regioes.tsx'
+import Pokedex from './routes/Pokedex.tsx'
 
 
 const route = createBrowserRouter([
@@ -22,8 +23,12 @@ const route = createBrowserRouter([
       },
       {
         path: 'regioes',
-        element: <Regioes />
-      }
+        element: <Regioes />,
+      },
+      {
+        path: 'regioes/pokedex',
+        element: <Pokedex />,
+      },
     ],
   }
 ])

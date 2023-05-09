@@ -1,0 +1,83 @@
+:root {
+  background-color: rgb(255, 255, 255);
+}
+
+* {
+  margin: 0;
+  font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 0;
+  text-decoration: none;
+  color: #666666;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("/src/assets/images/background3.jpg");
+  background-size: cover;
+}
+
+#root {
+  height: 100%;
+}
+
+main #div-voltar {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+main #div-voltar p {
+  margin: 0;
+  margin-left: 15px;
+  font-weight: 500;
+}
+main #seta-voltar {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-image: url("../assets/images/seta-esquerda.png");
+  background-size: cover;
+}
+main .navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+main .navbar .container-fluid {
+  padding: 0;
+}
+main .navbar .container-fluid input {
+  border-radius: 20px;
+  padding-left: 30px;
+}
+main #base-filtro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+main #base-filtro .filtro {
+  color: white;
+  padding: 8px 16px;
+  background: #333333;
+  border-radius: 49px;
+  width: 45%;
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=Pokedex.css.map */

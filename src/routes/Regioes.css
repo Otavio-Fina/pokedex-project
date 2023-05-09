@@ -18,6 +18,11 @@ html, body {
   overflow-x: hidden;
 }
 
+body {
+  background-image: url("/src/assets/images/background3.jpg");
+  background-size: cover;
+}
+
 #regioes #btn-regiao-1, #regioes #btn-regiao-2, #regioes #btn-regiao-3, #regioes #btn-regiao-4, #regioes #btn-regiao-5, #regioes #btn-regiao-6, #regioes #btn-regiao-7, #regioes #btn-regiao-8 {
   margin: 5px;
   padding: 10px;
@@ -153,12 +158,18 @@ html, body {
 }
 #regioes #btn-regiao-8 .starter-icon1 {
   background-image: url("../assets/pokesprite-master/pokesprite-master/pokemon-gen8/regular/grookey.png");
+  scale: 1.5;
+  margin-top: -40px;
 }
 #regioes #btn-regiao-8 .starter-icon2 {
   background-image: url("../assets/pokesprite-master/pokesprite-master/pokemon-gen8/regular/scorbunny.png");
+  scale: 1.5;
+  margin-top: -40px;
 }
 #regioes #btn-regiao-8 .starter-icon3 {
   background-image: url("../assets/pokesprite-master/pokesprite-master/pokemon-gen8/regular/sobble.png");
+  scale: 1.5;
+  margin-top: -40px;
 }
 
 /*# sourceMappingURL=Regioes.css.map */

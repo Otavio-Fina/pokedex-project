@@ -18,6 +18,11 @@ html, body {
   overflow-x: hidden;
 }
 
+body {
+  background-image: url("/src/assets/images/background3.jpg");
+  background-size: cover;
+}
+
 main {
   display: flex;
   flex-direction: column;
