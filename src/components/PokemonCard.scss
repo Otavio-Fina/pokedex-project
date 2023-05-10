@@ -1,6 +1,48 @@
 .pokemon-card {
+    background-color: #ECEBED;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     .info-card {
+        .poke-numero,h5 {
+            display: inline-block !important;
+            font-weight: 600 !important;
+        }
+
+        .poke-numero {
+            color: #333333;
+            font-size: 13px;
+        }
+
+        h5 {
+            color: #000000;
+            margin-bottom: 15px;
+            font-size: 17px;
+        }
+        padding: 15px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        text-align: start;
+
+
+        #tipo-container {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+
+
+    .pokemon-img {
+        width: 40%;
+        background-color: #333333;
+        border-radius: 15px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
 }

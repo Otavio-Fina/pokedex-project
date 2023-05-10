@@ -1,11 +1,12 @@
 .badge-tipo0,.badge-tipo1,.badge-tipo2,.badge-tipo3,.badge-tipo4,.badge-tipo5,.badge-tipo6,.badge-tipo7,.badge-tipo8,.badge-tipo9,.badge-tipo10,.badge-tipo11,.badge-tipo12,.badge-tipo13,.badge-tipo14,.badge-tipo15,.badge-tipo16,.badge-tipo17 {
- width: 90px;
+ width: 75px;
  height: 30px;
  background-color: blue;
  border-radius: 25px;
  display: flex;
  justify-content: space-between;
  align-items: center;
+ margin-right: 5px;
 
     .fundo-branco-badge {
         width: 20px;
@@ -29,7 +30,7 @@
 
 
     span{
-        font-size: 10px;
+        font-size: 9px;
         margin: 0;
         color: white;
         padding-right: 10px;

@@ -1,11 +1,12 @@
 .badge-tipo0, .badge-tipo1, .badge-tipo2, .badge-tipo3, .badge-tipo4, .badge-tipo5, .badge-tipo6, .badge-tipo7, .badge-tipo8, .badge-tipo9, .badge-tipo10, .badge-tipo11, .badge-tipo12, .badge-tipo13, .badge-tipo14, .badge-tipo15, .badge-tipo16, .badge-tipo17 {
-  width: 90px;
+  width: 75px;
   height: 30px;
   background-color: blue;
   border-radius: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 5px;
 }
 .badge-tipo0 .fundo-branco-badge, .badge-tipo1 .fundo-branco-badge, .badge-tipo2 .fundo-branco-badge, .badge-tipo3 .fundo-branco-badge, .badge-tipo4 .fundo-branco-badge, .badge-tipo5 .fundo-branco-badge, .badge-tipo6 .fundo-branco-badge, .badge-tipo7 .fundo-branco-badge, .badge-tipo8 .fundo-branco-badge, .badge-tipo9 .fundo-branco-badge, .badge-tipo10 .fundo-branco-badge, .badge-tipo11 .fundo-branco-badge, .badge-tipo12 .fundo-branco-badge, .badge-tipo13 .fundo-branco-badge, .badge-tipo14 .fundo-branco-badge, .badge-tipo15 .fundo-branco-badge, .badge-tipo16 .fundo-branco-badge, .badge-tipo17 .fundo-branco-badge {
   width: 20px;
@@ -25,7 +26,7 @@
   border-radius: 50%;
 }
 .badge-tipo0 span, .badge-tipo1 span, .badge-tipo2 span, .badge-tipo3 span, .badge-tipo4 span, .badge-tipo5 span, .badge-tipo6 span, .badge-tipo7 span, .badge-tipo8 span, .badge-tipo9 span, .badge-tipo10 span, .badge-tipo11 span, .badge-tipo12 span, .badge-tipo13 span, .badge-tipo14 span, .badge-tipo15 span, .badge-tipo16 span, .badge-tipo17 span {
-  font-size: 10px;
+  font-size: 9px;
   margin: 0;
   color: white;
   padding-right: 10px;
