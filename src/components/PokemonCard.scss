@@ -4,8 +4,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 20px;
 
     .info-card {
+        text-decoration: none;
+
         .poke-numero,h5 {
             display: inline-block !important;
             font-weight: 600 !important;
@@ -37,7 +40,6 @@
 
     .pokemon-img {
         width: 40%;
-        background-color: #333333;
         border-radius: 15px;
 
         img {

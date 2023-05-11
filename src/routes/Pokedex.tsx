@@ -44,8 +44,12 @@ export default function Pokedex() {
             </div>
 
 
+            <h5 id='recomendacao'>* brinque com o sprite do Pokemon que você mais gosta 😺</h5>
 
-            <PokemonCard />
+
+
+            <PokemonCard nomePkm={"bulbasaur"} genSprite={1} />
+            <PokemonCard nomePkm={"torchic"} genSprite={3} />
 
         </main>
 

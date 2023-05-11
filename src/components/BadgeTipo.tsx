@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import './BadgeTipo.css'
 import Vetor from "../assets/tipos/Vector.png"
 import Vetor1 from "../assets/tipos/Vector-1.png"
@@ -47,17 +46,16 @@ export default function BadgeTipo(props: any) {
 
 
     function TipoTemplate (props: any) {
-            useEffect(() => {{/*@ts-ignore*/}
-            document.querySelector(`.badge-tipo${props.tipo}`).style.background = props["bg-color"]; {/*@ts-ignore*/}
-            document.querySelector(`.badge-tipo${props.tipo} span`).style.color = props.font; {/*@ts-ignore*/}
-            document.querySelector(`.badge-tipo${props.tipo} .tipo${props.tipo}`).style.backgroundImage = `url(${props.url})`; {/*@ts-ignore*/}
-        }, [])
+        
 
+        const stileBadge: React.CSSProperties = { backgroundColor: props["bg-color"]}
+        const stileSpan: React.CSSProperties = { color: props.font}
+        const stileTipo: React.CSSProperties = { backgroundImage: `url(${props.url})`}
 
         return (
-            <div className={`badge-tipo${props.tipo}`}>
-                <div className="fundo-branco-badge"><div className={`tipo${props.tipo}`}></div></div>
-                <span className='tipo-nome'>{props.nomeTipo}</span>
+            <div className={`badge-tipo${props.tipo}` } style={stileBadge}>
+                <div className="fundo-branco-badge"><div className={`tipo${props.tipo}`} style={stileTipo}></div></div>
+                <span className='tipo-nome' style={stileSpan}>{props.nomeTipo}</span>
             </div>
         )
     }

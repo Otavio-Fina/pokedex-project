@@ -4,8 +4,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .pokemon-card .info-card {
+  text-decoration: none;
   padding: 15px;
   display: flex;
   flex-direction: column;
@@ -30,7 +32,6 @@
 }
 .pokemon-card .pokemon-img {
   width: 40%;
-  background-color: #333333;
   border-radius: 15px;
 }
 .pokemon-card .pokemon-img img {

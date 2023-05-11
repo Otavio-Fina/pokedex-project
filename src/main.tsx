@@ -29,6 +29,10 @@ const route = createBrowserRouter([
         path: 'regioes/pokedex',
         element: <Pokedex />,
       },
+      {
+        path: 'regioes/pokedex/:nomePkm',
+        element: <Pokedex />,
+      },
     ],
   }
 ])

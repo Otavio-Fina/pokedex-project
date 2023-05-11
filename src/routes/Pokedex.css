@@ -65,7 +65,6 @@ main #base-filtro {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 30px;
 }
 main #base-filtro .filtro {
   color: white;
@@ -79,6 +78,10 @@ main #base-filtro .filtro {
   align-items: center;
   font-size: 12px;
   cursor: pointer;
+}
+main #recomendacao {
+  font-size: 9px;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=Pokedex.css.map */
