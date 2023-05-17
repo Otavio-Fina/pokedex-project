@@ -27,6 +27,9 @@ body {
   height: 100%;
 }
 
+main ul {
+  padding: 0;
+}
 main #div-voltar {
   display: flex;
   flex-direction: row;

@@ -8,7 +8,7 @@ export default function usePonteiroSeguindo(ref: RefObject<HTMLElement>) {
 
         function handleMoveCursor({clientX, clientY}: MouseEvent) {
             const element = ref.current//@ts-expect-error
-            const x = 40 + clientX - element.offsetLeft - element.offsetWidth / 2;//@ts-expect-error
+            const x = 60 + clientX - element.offsetLeft - element.offsetWidth / 2;//@ts-expect-error
             const y = clientY - element.offsetTop - element.offsetHeight / 2;
             setCursor({ x, y });
         }

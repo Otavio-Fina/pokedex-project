@@ -1,19 +1,32 @@
 import './Pokedex.css'
 import setaBaixo from '../assets/images/Path.png'
-import PokemonCard from '../components/PokemonCard'
+import RenderizacaoListaPokemonCard from '../components/RenderizacaoListaPokemonCard'
 
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { useSelector } from 'react-redux'
+import type { RootState } from '../app/store'
+
+import UseNomeDaRegiao from '../hook/UseNomeDaRegiao'
+
+
 
 
 
 export default function Pokedex() {
+
+    const numRegiao = useSelector((state: RootState) => state.data.regiao)
+
+
+
+
+
     return (
         <>
          <main id='pokedex'> {/* id sendo usado para evitar o mesclagem de css */}
             <nav className="navbar">
                 <div id='div-voltar'>
-                    <Link id='seta-voltar' to={"/regioes"}></Link> <p>Kanto</p>
+                    <Link id='seta-voltar' to={"/regioes"}></Link> <p>{UseNomeDaRegiao(numRegiao)}</p>
                 </div>
 
                 <div className="container-fluid">
@@ -44,12 +57,11 @@ export default function Pokedex() {
             </div>
 
 
-            <h5 id='recomendacao'>* brinque com o sprite do Pokemon que você mais gosta 😺</h5>
+            <h5 id='recomendacao'>* brinque com o sprite do Pokemon que você mais gosta 😺 <br /> clique, segure, puxe e arraste</h5>
 
 
 
-            <PokemonCard nomePkm={"bulbasaur"} genSprite={1} />
-            <PokemonCard nomePkm={"torchic"} genSprite={3} />
+            <RenderizacaoListaPokemonCard />
 
         </main>
 

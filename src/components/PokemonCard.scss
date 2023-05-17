@@ -5,6 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 20px;
+    box-shadow: 2px 2px 5px #5b5b5b;
 
     .info-card {
         text-decoration: none;
@@ -42,9 +43,26 @@
         width: 40%;
         border-radius: 15px;
 
-        img {
+
+        .pokemon-tipo-vetor {
+
             width: 100%;
             height: 100%;
+            background-repeat: no-repeat;
+            background-size: 50%;
+            background-position: center;
+
+
+
+
+            .sprite {
+                width: 100%;
+                height: 100%;
+                margin-top: -30px;
+                scale: 1;
+
+                    
+            }
         }
     }
 }
