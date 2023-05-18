@@ -1,0 +1,166 @@
+@charset "UTF-8";
+div#selecao-escuro {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(49, 49, 49, 0.2);
+  margin: 0;
+}
+div#selecao-escuro main#SelecaoDeOrdem {
+  position: sticky;
+  height: 400px;
+  top: calc(99.5vh - 400px);
+  width: 100%;
+  margin: 0;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: scroll;
+  /*
+              const preto = "#000000"
+              const branco = "#FFFFFF"
+
+              const agua = {bgColor: "#5090D6", font: preto, url: Vetor, nome: "Água"}0
+              const dragao = {bgColor: "#0B6DC3", font: branco, url: Vetor1, nome: "Dragão"}1
+              const eletrico = {bgColor: "#F4D23C", font: preto, url: Vetor2, nome: "Elétrico"}2
+              const fada = {bgColor: "#EC8FE6", font: preto, url: Vetor3, nome: "Fada"}3
+              const fantasma = {bgColor: "#5269AD", font: branco, url: Vetor4, nome: "Fantasma"}4
+              const fogo = {bgColor: "#FF9D55", font: preto, url: Vetor5, nome: "Fogo"}5
+              const gelo = {bgColor: "#73CEC0", font: preto, url: Vetor10, nome: "Gelo"}6
+              const grama = {bgColor: "#63BC5A", font: preto, url: Vetor12, nome: "Grama"}7
+              const inseto = {bgColor: "#91C12F", font: preto, url: Vetor13, nome: "Inseto"}8
+              const lutador = {bgColor: "#CE416B", font: branco, url: Vetor14, nome: "Lutador"}9
+              const normal = {bgColor: "#919AA2", font: preto, url: Vetor15, nome: "Normal"}10
+              const noturno = {bgColor: "#5A5465", font: branco, url: Vetor16, nome: "Noturno"}11
+              const metal = {bgColor: "#5A8EA2", font: preto, url: Vetor17, nome: "Metal"}12
+              const pedra = {bgColor: "#C5B78C", font: preto, url: Vetor18, nome: "Pedra"}13
+              const psiquico = {bgColor: "#FA7179", font: preto, url: Vetor19, nome: "Psíquico"}14
+              const terrestre = {bgColor: "#D97845", font: preto, url: Vetor20, nome: "Terrestre"}15
+              const venenoso = {bgColor: "#B567CE", font: preto, url: Vetor21, nome: "Venenoso"}16
+              const voador = {bgColor: "#89AAE3", font: preto, url: Vetor22, nome: "Voador"}17
+          */
+  /*
+
+  =============================BOTOES PERSONALIZADOS PARA CADA TIPO =====================
+
+  const agua = {bgColor: "#5090D6", font: preto, url: Vetor, nome: "Água"}
+  const dragao = {bgColor: "#0B6DC3", font: branco, url: Vetor1, nome: "Dragão"}
+  const eletrico = {bgColor: "#F4D23C", font: preto, url: Vetor2, nome: "Elétrico"}
+  const fada = {bgColor: "#EC8FE6", font: preto, url: Vetor3, nome: "Fada"}
+  const fantasma = {bgColor: "#5269AD", font: branco, url: Vetor4, nome: "Fantasma"}
+  const fogo = {bgColor: "#FF9D55", font: preto, url: Vetor5, nome: "Fogo"}
+  const gelo = {bgColor: "#73CEC0", font: preto, url: Vetor10, nome: "Gelo"}
+  const grama = {bgColor: "#63BC5A", font: preto, url: Vetor12, nome: "Grama"}
+  const inseto = {bgColor: "#91C12F", font: preto, url: Vetor13, nome: "Inseto"}
+  const lutador = {bgColor: "#CE416B", font: branco, url: Vetor14, nome: "Lutador"}
+  const normal = {bgColor: "#919AA2", font: preto, url: Vetor15, nome: "Normal"}
+  const noturno = {bgColor: "#5A5465", font: branco, url: Vetor16, nome: "Noturno"}
+  const metal = {bgColor: "#5A8EA2", font: preto, url: Vetor17, nome: "Metal"}
+  const pedra = {bgColor: "#C5B78C", font: preto, url: Vetor18, nome: "Pedra"}
+  const psiquico = {bgColor: "#FA7179", font: preto, url: Vetor19, nome: "Psíquico"}
+  const terrestre = {bgColor: "#D97845", font: preto, url: Vetor20, nome: "Terrestre"}
+  const venenoso = {bgColor: "#B567CE", font: preto, url: Vetor21, nome: "Venenoso"}
+  const voador = {bgColor: "#89AAE3", font: preto, url: Vetor22, nome: "Voador"}
+
+  */
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem::-webkit-scrollbar { /* deixa a scrollbar invisivel */
+  width: 0.1em;
+  height: 0.1em;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .filtro {
+  color: white;
+  padding: 8px 16px;
+  background: #333333;
+  border-radius: 49px;
+  width: 95%;
+  margin: 7px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-agua {
+  background-color: #5090D6;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-dragao {
+  background-color: #0B6DC3;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-eletrico {
+  background-color: #F4D23C;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-fada {
+  background-color: #EC8FE6;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-fantasma {
+  background-color: #5269AD;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-fogo {
+  background-color: #FF9D55;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-gelo {
+  background-color: #73CEC0;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-grama {
+  background-color: #63BC5A;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-inseto {
+  background-color: #91C12F;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-lutador {
+  background-color: #CE416B;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-normal {
+  background-color: #919AA2;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-noturno {
+  background-color: #5A5465;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-metal {
+  background-color: #5A8EA2;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-pedra {
+  background-color: #C5B78C;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-psiquico {
+  background-color: #FA7179;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-terrestre {
+  background-color: #D97845;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-venenoso {
+  background-color: #B567CE;
+  color: #FFFFFF;
+}
+div#selecao-escuro main#SelecaoDeOrdem div#container-ordem .btn-filtro-voador {
+  background-color: #89AAE3;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=SelecaoDeOrdem.css.map */
